@@ -1,7 +1,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var db = mongoose.connect('mongodb://aripp:liberty@ds041613.mongolab.com:41613/books');
+var db = mongoose.connect('mongodb://arippp777:liberty@ds041613.mongolab.com:41613/books');
 
 var Book = require('./models/bookModel');
 var app = express();
