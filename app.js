@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 var bookRouter = require('./routes/bookRoutes');
 
-  app.use('/api', bookRouter);
+  app.use('/api', bookRouter(Book));
 
 app.get("/", function(req,res){
   res.send('welcome to my API!');
