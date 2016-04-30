@@ -1,8 +1,8 @@
-var express = require('express');
+const express = require('express');
 
-var routes = function(Book) {
+const routes = function(Book) {
 
-  var bookRouter = express.Router();
+  const bookRouter = express.Router();
 
   bookRouter.use('/Books/:bookId', function(req,res,next){
     Book.findById(req.params.bookId, function(error,book){
@@ -18,13 +18,13 @@ var routes = function(Book) {
   });
   bookRouter.route('/Books')
     .post(function(req,res){
-      var book = new Book(req.body);
+      const book = new Book(req.body);
       book.save();
       res.status(201).send(book);
 
     })
     .get(function(req,res){
-      var query = req.query;
+      const query = req.query;
       Book.find(query, function(error, books){
         if(error){
           res.status(500).send(error);

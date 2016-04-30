@@ -1,13 +1,13 @@
-var bookController = function(Book) {
+const bookController = function(Book) {
 
-  var post = function(req,res){
-    var book = new Book(req.body);
+  const post = function(req,res){
+    const book = new Book(req.body);
     book.save();
     res.status(201).send(book);
 
   }
-  var get = function(req,res){
-    var query = req.query;
+  const get = function(req,res){
+    const query = req.query;
     Book.find(query, function(error, books){
       if(error){
         res.status(500).send(error);

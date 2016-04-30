@@ -1,0 +1,39 @@
+[
+  {
+    "_id": "55e21b7132aaf1d46bb9e290",
+    "__v": 0,
+    "read": false
+  },
+  {
+    "_id": "55e263b0e164523879f9a6e3",
+    "title": "Node.js In Action",
+    "genre": "Fiction",
+    "author": "TJ Holowaychuk, Mike Cantelon, Marc Harter, Nathan Rajlich",
+    "__v": 0,
+    "read": true
+  },
+  {
+    "_id": "55e270c03a810f6472b5e436",
+    "title": "Build an HTML5 Game",
+    "genre": "Non-Fiction, Technical, Programming Languages, JavaScript",
+    "author": "Karl Bunyan",
+    "__v": 0,
+    "read": true
+  },
+  {
+    "_id": "55e271a53a810f6472b5e437",
+    "title": "If Hemingway Wrote JavaScript",
+    "genre": "Non-Fiction, Technical, Programming Languages, JavaScript",
+    "author": "Angus Croll",
+    "__v": 0,
+    "read": true
+  },
+  {
+    "_id": "5724170e15355b340bc0fe10",
+    "title": "Test Blah",
+    "genre": "Non-Fiction",
+    "author": "TJ Holowaychuk, Mike Cantelon, Marc Harter, Nathan Rajlich",
+    "__v": 0,
+    "read": true
+  }
+]
